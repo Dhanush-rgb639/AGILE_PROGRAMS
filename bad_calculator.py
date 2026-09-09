@@ -5,7 +5,7 @@ class Calculator:
 
         if operation == "add":
             return a + b
-
+ 
         elif operation == "subtract":
             return a - b
 
@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     calc = Calculator()
 
-    print("10 + 5 =", calc.calculate(10, 5, "add"))
-    print("10 - 5 =", calc.calculate(10, 5, "subtract"))
+    print("10 + 5 =", calc.calculate(10, 10, "add"))
+    print("10 - 5 =", calc.calculate(10, 20, "subtract"))
     print("10 * 5 =", calc.calculate(10, 5, "multiply"))
     print("10 / 5 =", calc.calculate(10, 5, "divide"))
